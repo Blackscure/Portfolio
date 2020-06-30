@@ -1,0 +1,22 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Responsive Portfolio Website",
+    "main": "index.js",
+    "scripts": {
+        "sass": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Blackscure/Portfolio.git"
+    },
+    "author": "Wekesa Buyahi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Blackscure/Portfolio/issues"
+    },
+    "homepage": "https://github.com/Blackscure/Portfolio#readme",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}

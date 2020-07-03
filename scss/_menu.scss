@@ -10,7 +10,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
     // Rotate Into X With Menu Lines
@@ -75,10 +75,17 @@
             // Slide in from bottom
             transform: translate3d(0, 0, 0);
         }
-        .portrait {
+        /* .portrait {
             width: 250px;
             height: 250px;
-            background: url(../img/portrait.jpg);
+            background: url("../img/portrait.jpg");
+            border-radius: 50%;
+            border: solid 3px $secondary-color;
+        }
+        */
+        img {
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
@@ -115,4 +122,8 @@
     .nav-item:nth-child(#{$x}) {
         transition-delay: $x * 0.1s;
     }
+}
+
+img {
+    border-radius: 50px;
 }
